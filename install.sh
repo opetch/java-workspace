@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-yum install -y git maven
+yum install -y git maven docker
 
 tmp_idea="/tmp/idea.tar.gz"
 tmp_vscode="/tmp/vscode.rpm"
