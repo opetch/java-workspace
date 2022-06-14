@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-yum install -y git
+yum install -y git maven
 
 tmp_idea="/tmp/idea.tar.gz"
 tmp_vscode="/tmp/vscode.rpm"
